@@ -1,5 +1,15 @@
 # mvnrepo-edit
 
+[MVN Repository](https://mvnrepository.com/) generates Gradle dependency snippets but a little bit old style
+like using "compile" or "testCompile" scopes.
+
+This tool edits the snippets and generates in a newer style.
+
+Run the tool as shown below and put the old-styled snippets in the left textarea.
+Then you can see a newer snippets in the right textarea.
+
+You can change the usage of single or double quotes and parentheses with switches.
+
 ## Build Setup
 
 ```bash
